@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="@string/username_hint"
+        />
+    
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="@string/first_name"
+        />
+    
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="@string/last_name"
+        />
+    
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="@string/roll_no"
+        />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"/>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="70dp" >
+
+	    <Button
+	        android:id="@+id/register_button"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="40dp"
+	        android:layout_marginRight="40dp"
+	        android:textAlignment="center"
+	        android:layout_weight="0.26"
+	        android:background="#191970"
+	        android:text="@string/register_button"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp" />
+
+	</LinearLayout>
+
+</LinearLayout>
